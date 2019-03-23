@@ -1,0 +1,98 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
+
+# Pending maps: undo (from u to z)
+# Disable from vim-mode-plus: k, s, S, H, X, Z
+# ==============================================================================
+# Colemak Modifications: not insert mode
+# ==============================================================================
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  # Movement
+  # Colemak modification: vim-mode-plus:move-down => from 'j' to 'e'
+  'e': 'vim-mode-plus:move-down'
+
+  # Colemak odification: vim-mode-plus:move-left	=> from 'h' to 'n'
+  'n': 'vim-mode-plus:move-left'
+
+  # Colemak modification: vim-mode-plus:move-up	=> from 'k' to 'u'
+  'u': 'vim-mode-plus:move-up'
+
+# Colemak modification: vim-mode-plus:move-right	=> from 'l' to 'i'
+#'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'i': 'vim-mode-plus:move-right'
+
+# Colemak modification: vim-mode-plus:repeat-search => from 'n' to 'k'
+#  'k': 'vim-mode-plus:repeat-search'
+
+# Colemak modification: vim-mode-plus:put-after	=> from 'p' to 'v'
+#  'v': 'vim-mode-plus:put-after'
+
+# vim-mode-plus:move-to-previous-word => from 'b' to 'l'
+  'l': 'vim-mode-plus:move-to-previous-word'
+  'L': 'vim-mode-plus:move-to-previous-whole-word'
+
+# vim-mode-plus:move-to-previous-word => from 'w' to 'y' and 'W' to 'Y'
+  'y': 'vim-mode-plus:move-to-next-word'
+  'Y': 'vim-mode-plus:move-to-next-whole-word'
+
+  # Operator
+  # ============================================================================
+  'w': 'vim-mode-plus:change'
+  'W': 'vim-mode-plus:change-to-last-character-of-line'
+  'c': 'vim-mode-plus:yank'
+  'C': 'vim-mode-plus:yank-line'
+  'z': 'vim-mode-plus:undo'
+  'Z': 'vim-mode-plus:redo'
+  'x': 'vim-mode-plus:delete'
+  'X': 'vim-mode-plus:delete-to-last-character-of-line'
+  'v': 'vim-mode-plus:put-after'
+  'd': 'vim-mode-plus:delete-right'
+
+# Colemak modification: Move pane to the very bottom
+#  'ctrl-w shift-E': 'vim-mode-plus:move-pane-to-very-bottom'
+
+# Colemak Modifications: Inset, Replace, Append, Change
+# ==============================================================================
+'atom-text-editor.vim-mode-plus.normal-mode':
+# Colemak modification: vim-mode-plus:activate-insert-mode	=> from 'i' to 's'
+  's': 'vim-mode-plus:activate-insert-mode'
+  'S': 'vim-mode-plus:insert-after-end-of-line'
+  't': 'vim-mode-plus:activate-insert-after'
+  'a': 'vim-mode-plus:activate-characterwise-visual-mode'
+  'A': 'vim-mode-plus:activate-linewise-visual-mode'
+
+'atom-text-editor.vim-mode-plus.visual-mode.is-narrowed':
+  'ctrl-cmd-w': 'vim-mode-plus:change-occurrence-from-search'
+# Colemak modification: vim-mode-plus:move-down-screen
+#'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+#  'g e': 'vim-mode-plus:move-down-screen'

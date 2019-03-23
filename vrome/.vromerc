@@ -1,0 +1,21 @@
+" Disable Vrome in those sites, Multiple URLs can be separated with ,
+set disablesites=mail.google.com, google.com
+
+" ----------------- Scroll Navigation ------------------------
+" Remap navigation for Colemak
+map e j
+map u k
+" [count] <C-f>     Scroll down [count] full page
+map H <C-f>
+" [count] <C-d>     Scroll down [count] half page
+map h <C-d>
+" [count] <C-b>     Scroll up [count] full page
+map J <C-b>
+" [count] <C-u>     Scroll up [count] half page
+map j <C-u>
+
+" ----------------- Tab Navigation ------------------------
+" [count] gt        Go to right [count] tab
+map y gt
+" [count] gT        Go to left [count] tab
+map l gT
