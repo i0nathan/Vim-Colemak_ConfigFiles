@@ -18,54 +18,46 @@
       "type": "command.show.tabopen",
       "alter": false
     },
-    "T": {
+    "d": {
       "type": "command.show.tabopen",
       "alter": true
     },
-    "w": {
-      "type": "command.show.winopen",
-      "alter": false
-    },
-    "W": {
-      "type": "command.show.winopen",
-      "alter": true
-    },
-    "b": {
-      "type": "command.show.buffer"
+    "": {
+      "type": "navigate.history.next"
     },
     "a": {
       "type": "command.show.addbookmark",
       "alter": true
     },
-    "k": {
+    "u": {
       "type": "scroll.vertically",
       "count": -1
+    },
+    "e": {
+      "type": "scroll.vertically",
+      "count": 1
+    },
+    "n": {
+      "type": "scroll.horizonally",
+      "count": -1
+    },
+    "i": {
+      "type": "scroll.horizonally",
+      "count": 1
     },
     "j": {
-      "type": "scroll.vertically",
-      "count": 1
-    },
-    "h": {
-      "type": "scroll.horizonally",
-      "count": -1
-    },
-    "l": {
-      "type": "scroll.horizonally",
-      "count": 1
-    },
-    "<C-U>": {
       "type": "scroll.pages",
       "count": -0.5
     },
-    "<C-D>": {
+    "h": {
       "type": "scroll.pages",
       "count": 0.5
     },
-    "<C-B>": {
+    "<C-U>": {
       "type": "scroll.pages",
       "count": -1
     },
-    "<C-F>": {
+    "<C-E>": {
       "type": "scroll.pages",
       "count": 1
     },
@@ -78,7 +70,7 @@
     "$": {
       "type": "scroll.end"
     },
-    "d": {
+    "w": {
       "type": "tabs.close",
       "select": "right"
     },
@@ -92,13 +84,13 @@
     "!d": {
       "type": "tabs.close.force"
     },
-    "u": {
+    "T": {
       "type": "tabs.reopen"
     },
-    "gT": {
+    "l": {
       "type": "tabs.prev"
     },
-    "gt": {
+    "y": {
       "type": "tabs.next"
     },
     "g0": {
@@ -149,12 +141,6 @@
     "'": {
       "type": "mark.jump.prefix"
     },
-    "H": {
-      "type": "navigate.history.prev"
-    },
-    "L": {
-      "type": "navigate.history.next"
-    },
     "[[": {
       "type": "navigate.link.prev"
     },
@@ -181,24 +167,24 @@
       "type": "page.home",
       "newTab": true
     },
-    "y": {
+    "c": {
       "type": "urls.yank"
     },
-    "p": {
+    "V": {
       "type": "urls.paste",
       "newTab": false
     },
-    "P": {
+    "v": {
       "type": "urls.paste",
       "newTab": true
     },
     "/": {
       "type": "find.start"
     },
-    "n": {
+    "k": {
       "type": "find.next"
     },
-    "N": {
+    "b": {
       "type": "find.prev"
     },
     ".": {
@@ -209,7 +195,7 @@
     }
   },
   "search": {
-    "default": "google",
+    "default": "duckduckgo",
     "engines": {
       "google": "https://google.com/search?q={}",
       "yahoo": "https://search.yahoo.com/search?p={}",
