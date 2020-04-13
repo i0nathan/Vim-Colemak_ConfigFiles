@@ -1,5 +1,5 @@
 # This is a configuration built from the vim-mode-plus package in atom from t9md
-# Layout from (jooize)[]
+# Layout from (jooize)[https://github.com/jooize/vim-colemak#key-mappings]
 Colemak layout:                  |                 QWERTY layout:
 `12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
  qwfpg jluy;[]\         e        |       k          qwert yuiop[]\
