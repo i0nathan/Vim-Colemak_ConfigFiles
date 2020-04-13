@@ -2,6 +2,7 @@
 * This layout is taken from Shai and modifications made from jooize and tried to be applies to different vim tools  (browser navigators and packages built for text editors). I hope is clear and useful.
 
 ## Layout from [jooize](https://github.com/jooize/vim-colemak#key-mappings)
+```
 Colemak layout:                  |                 QWERTY layout:
 `12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
  qwfpg jluy;[]\         e        |       k          qwert yuiop[]\
@@ -65,6 +66,7 @@ Legend:
 (   o  )  Operator pending
 (    v )  Visual+Select mode
 (     x)  Visual mode
+```
 
 ## Notes about Insert mode
   ctrl - r: Insert registers
