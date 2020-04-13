@@ -513,15 +513,15 @@
   #'V': 'vim-mode-plus:activate-linewise-visual-mode'
   'A': 'vim-mode-plus:activate-linewise-visual-mode'
   
-  # ---------------------------------------------------------------TODO------------------------------------------ #
-  
   'ctrl-v': 'vim-mode-plus:activate-blockwise-visual-mode'
 
   'g v': 'vim-mode-plus:select-previous-selection'
   'g c': 'vim-mode-plus:select-latest-change'
 
-  'u': 'vim-mode-plus:undo'
-  'ctrl-r': 'vim-mode-plus:redo'
+  #'u': 'vim-mode-plus:undo'
+  'z': 'vim-mode-plus:undo'
+  #'ctrl-r': 'vim-mode-plus:redo'
+  'Z': 'vim-mode-plus:redo'
   'O': 'vim-mode-plus:insert-above-with-newline'
   'o': 'vim-mode-plus:insert-below-with-newline'
   'x': 'vim-mode-plus:delete-right'
@@ -567,7 +567,8 @@
 # -------------------------
 # `c c` to works as change current line.
 'atom-text-editor.vim-mode-plus.operator-pending-mode.change-pending':
-  'c': 'vim-mode-plus:change'
+  'w': 'vim-mode-plus:change'
+  #'c': 'vim-mode-plus:change'
 
 # `d d` to works as delete current line
 'atom-text-editor.vim-mode-plus.operator-pending-mode.delete-pending':
@@ -726,8 +727,10 @@
   'ctrl-v': 'vim-mode-plus:activate-blockwise-visual-mode'
   'enter': 'vim-mode-plus:create-persistent-selection'
   'D': 'vim-mode-plus:delete-line'
-  'C': 'vim-mode-plus:change-line'
-  'Y': 'vim-mode-plus:yank-line'
+  #'C': 'vim-mode-plus:change-line'
+  'W': 'vim-mode-plus:change-line'
+  #'Y': 'vim-mode-plus:yank-line'
+  'C': 'vim-mode-plus:yank-line'
 
 'atom-text-editor.vim-mode-plus.has-persistent-selection.normal-mode, atom-text-editor.vim-mode-plus.visual-mode':
   'I': 'vim-mode-plus:insert-at-start-of-target'
@@ -741,7 +744,8 @@
   'o': 'vim-mode-plus:blockwise-other-end'
   'O': 'vim-mode-plus:reverse-selections'
   'D': 'vim-mode-plus:delete-to-last-character-of-line'
-  'C': 'vim-mode-plus:change-to-last-character-of-line'
+  #'C': 'vim-mode-plus:change-to-last-character-of-line'
+  'W': 'vim-mode-plus:change-to-last-character-of-line'
 
 # Input mini editor e.g. mark, surround, find, till.
 # -------------------------
