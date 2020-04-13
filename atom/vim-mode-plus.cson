@@ -67,8 +67,10 @@
   'up': 'vim-mode-plus:move-up'
   'down': 'vim-mode-plus:move-down'
 
-  'g u': 'vim-mode-plus:move-up-screen'
-  'g e': 'vim-mode-plus:move-down-screen'
+  #'g u': 'vim-mode-plus:move-up-screen'
+  'U': 'vim-mode-plus:move-up-screen'
+  #'g e': 'vim-mode-plus:move-down-screen'
+  'E': 'vim-mode-plus:move-down-screen'
 
   'y': 'vim-mode-plus:move-to-next-word'
   #'w': 'vim-mode-plus:move-to-next-word'
@@ -78,9 +80,9 @@
   
   # 'e': 'vim-mode-plus:move-to-end-of-word'
   # 'e': 'vim-mode-plus:move-to-end-of-alphanumeric-word'
-  'g e': 'vim-mode-plus:move-to-previous-end-of-word'
+  #'g e': 'vim-mode-plus:move-to-previous-end-of-word'
   #'E': 'vim-mode-plus:move-to-end-of-whole-word'
-  'g E': 'vim-mode-plus:move-to-previous-end-of-whole-word'
+  #'g E': 'vim-mode-plus:move-to-previous-end-of-whole-word'
   
   #'b': 'vim-mode-plus:move-to-previous-word'
   'l': 'vim-mode-plus:move-to-previous-word'
@@ -132,8 +134,8 @@
   'g ctrl-d': 'vim-mode-plus:scroll-quarter-screen-down'
   'g ctrl-u': 'vim-mode-plus:scroll-quarter-screen-up'
 
-  'ctrl-e': 'vim-mode-plus:mini-scroll-down'
-  'ctrl-y': 'vim-mode-plus:mini-scroll-up'
+  #'ctrl-e': 'vim-mode-plus:mini-scroll-down'
+  #'ctrl-y': 'vim-mode-plus:mini-scroll-up'
 
   'G': 'vim-mode-plus:move-to-last-line'
   'g g': 'vim-mode-plus:move-to-first-line'
@@ -526,7 +528,7 @@
   'o': 'vim-mode-plus:insert-below-with-newline'
   'x': 'vim-mode-plus:delete-right'
   'X': 'vim-mode-plus:delete-left'
-  's': 'vim-mode-plus:substitute'
+  #'s': 'vim-mode-plus:substitute'
   '.': 'vim-mode-plus:repeat'
   'ctrl-]': 'symbols-view:go-to-declaration'
   'ctrl-t': 'symbols-view:return-from-declaration'
