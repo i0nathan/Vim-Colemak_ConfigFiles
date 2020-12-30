@@ -1,3 +1,12 @@
+# Installation
+1. Install vim-mode-plus package in atom
+'''
+2. cd ~
+3. git clone https://github.com/i0nathan/Vim-Colemak_ConfigFiles.git
+4. cp Vim-Colemak_ConfigFiles/atom/vim-mode-plus.cson /mnt/c/Users/i0nat/.atom/packages/vim-mode-plus/keymaps/
+'''
+5. restart atom
+
 # This is a configuration built from the vim-mode-plus package in atom from t9md
 # Layout from [jooize](https://github.com/jooize/vim-colemak#key-mappings)
 Colemak layout:                  |                 QWERTY layout:
@@ -65,8 +74,3 @@ Legend:
 (     x)  Visual mode
 
 *This configuration is based on Shai Colemak's configuration
-## Steps
-1. Install vim-mode-plus package in atom
-2. From settings/code/vim-mode-plus/keymaps, modify the vim-mode-plus.cson (Caution: I don't know if this best practice!)
-3. Replace the content from this repo vim-mode-plus.cson file to atom package file
-4. Restart Atom
