@@ -4,7 +4,7 @@
 ```
 2. cd ~
 3. git clone https://github.com/i0nathan/Vim-Colemak_ConfigFiles.git
-4. cp Vim-Colemak_ConfigFiles/atom/vim-mode-plus.cson /mnt/c/Users/i0nat/.atom/packages/vim-mode-plus/keymaps/
+4. cp Vim-Colemak_ConfigFiles/atom/vim-mode-plus.cson /mnt/c/Users/[username]/.atom/packages/vim-mode-plus/keymaps/
 ```
 5. restart atom
 
