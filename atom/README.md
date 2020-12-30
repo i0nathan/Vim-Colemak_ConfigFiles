@@ -1,5 +1,6 @@
 # Installation
 1. Install vim-mode-plus package in atom
+
 '''
 2. cd ~
 3. git clone https://github.com/i0nathan/Vim-Colemak_ConfigFiles.git
