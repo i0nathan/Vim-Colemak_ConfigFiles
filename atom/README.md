@@ -1,11 +1,11 @@
 # Installation
 1. Install vim-mode-plus package in atom
 
-'''bash
+```
 2. cd ~
 3. git clone https://github.com/i0nathan/Vim-Colemak_ConfigFiles.git
 4. cp Vim-Colemak_ConfigFiles/atom/vim-mode-plus.cson /mnt/c/Users/i0nat/.atom/packages/vim-mode-plus/keymaps/
-'''
+```
 5. restart atom
 
 # This is a configuration built from the vim-mode-plus package in atom from t9md
