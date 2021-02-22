@@ -19,3 +19,5 @@ map j <C-u>
 map y gt
 " [count] gT        Go to left [count] tab
 map l gT
+" <M-d>             Close current tab and select last selected tab.
+map w <M-d>
