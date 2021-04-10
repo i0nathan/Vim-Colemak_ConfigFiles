@@ -2,7 +2,7 @@
 1. Install vim-mode-plus package in atom
 
 ```
-wget -L https://raw.githubusercontent.com/i0nathan/Vim-Colemak_ConfigFiles/master/atom/vim-mode-plus.cson -O /mnt/c/Users/i0nat/.atom/packages/vim-mode-plus/keymaps/vim-mode-plus.cson
+wget -L https://raw.githubusercontent.com/i0nathan/Vim-Colemak_ConfigFiles/master/atom/vim-mode-plus.cson -O /mnt/c/Users/{USER}/.atom/packages/vim-mode-plus/keymaps/vim-mode-plus.cson
 ```
 5. restart atom
 
