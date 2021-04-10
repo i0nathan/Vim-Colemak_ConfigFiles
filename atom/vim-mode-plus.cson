@@ -163,7 +163,7 @@
   #'S': 'vim-mode-plus:substitute-line'
   
   #'Y': 'vim-mode-plus:yank-line'
-  'C': 'vim-mode-plus:yank-line'
+  'C': 'vim-mode-plus:yank-to-last-character-of-line'
 
   'r': 'vim-mode-plus:replace'
   'g o': 'vim-mode-plus:toggle-preset-occurrence'
@@ -550,7 +550,7 @@
   'A': 'vim-mode-plus:move-to-last-character-of-line'
 
   # Shorthand keymap for two-keystroke text-object
-  'c': 'vim-mode-plus:inner-smart-word' # `y c` for `y i w`
+  'c': 'vim-mode-plus:inner-current-line' # `y c` for `y i w`
   'd': 'vim-mode-plus:inner-subword'    # `y d` for `y i d`
   'C': 'vim-mode-plus:inner-whole-word' # `y C` for `y i W`
   'p': 'vim-mode-plus:inner-paragraph'  # `y p` for `y i p`
