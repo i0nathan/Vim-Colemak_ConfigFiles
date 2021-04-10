@@ -72,12 +72,13 @@
   #'g e': 'vim-mode-plus:move-down-screen'
   'E': 'vim-mode-plus:move-down-screen'
 
-  'y': 'vim-mode-plus:move-to-next-word'
+  #'y': 'vim-mode-plus:move-to-next-word'
   #'w': 'vim-mode-plus:move-to-next-word'
   # 'w': 'vim-mode-plus:move-to-next-alphanumeric-word'
   #'W': 'vim-mode-plus:move-to-next-whole-word'
   'Y': 'vim-mode-plus:move-to-next-whole-word'
   
+  'y': 'vim-mode-plus:move-to-end-of-word'
   # 'e': 'vim-mode-plus:move-to-end-of-word'
   # 'e': 'vim-mode-plus:move-to-end-of-alphanumeric-word'
   #'g e': 'vim-mode-plus:move-to-previous-end-of-word'
@@ -598,8 +599,8 @@
 # -------------------------
 'atom-text-editor.vim-mode-plus.operator-pending-mode, atom-text-editor.vim-mode-plus.visual-mode':
   '~': 'vim-mode-plus:toggle-case'
-  'U': 'vim-mode-plus:upper-case'
-  'u': 'vim-mode-plus:lower-case'
+  'g U': 'vim-mode-plus:upper-case'
+  'g u': 'vim-mode-plus:lower-case'
 
   # Text object inner-, a- order
   'i w': 'vim-mode-plus:inner-word'
@@ -735,8 +736,8 @@
   'C': 'vim-mode-plus:yank-line'
 
 'atom-text-editor.vim-mode-plus.has-persistent-selection.normal-mode, atom-text-editor.vim-mode-plus.visual-mode':
-  'I': 'vim-mode-plus:insert-at-start-of-target'
-  'A': 'vim-mode-plus:insert-at-end-of-target'
+  'S': 'vim-mode-plus:insert-at-start-of-target'
+  'T': 'vim-mode-plus:insert-at-end-of-target'
   # 'p': 'vim-mode-plus:swap-with-register'
   # 'P': 'vim-mode-plus:swap-with-register'
 
