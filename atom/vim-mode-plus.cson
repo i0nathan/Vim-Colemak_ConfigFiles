@@ -163,6 +163,7 @@
   #'S': 'vim-mode-plus:substitute-line'
   
   #'Y': 'vim-mode-plus:yank-line'
+  'c l': 'vim-mode-plus:yank-line'
   'C': 'vim-mode-plus:yank-to-last-character-of-line'
 
   'r': 'vim-mode-plus:replace'
